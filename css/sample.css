@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    font: optional;align-self: start;
+    background-color: aqua;
+}
+header{
+    background-color: #0066CC;
+    color: #FFF;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main{
+    border-bottom:1px solid #ccc;
+    position:relative;
+
+}
+footer{
+    background-color: #0066CC;
+    color: #FFF;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:100%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: cornflowerblue;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    text-align: center;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+textarea{
+  margin: 3%;
+  width: 95%;
+  height: 230px;
+  font-size:80%;
+  box-shadow: 3px 3px 3px 3px #555;
+}
+
+h2{
+    color: #FFF;
+    border-bottom:1px solid #ccc;
+    text-align: center; 
+    font-size: 32px;
+}
